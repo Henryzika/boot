@@ -1,0 +1,61 @@
+.market div{
+     box-shadow: 0 4px 4px 4px gainsboro;
+     padding:20px 20px;
+     border-radius: 5px;
+
+}
+.market div h4 {
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.market div a {
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+.market div a :hover {
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 25px;
+    color: gold;
+}
+.mybody{
+    width:100%
+}
+.mybody img{
+    width: 100%;
+    height: 250px;
+}
+.mybody h4{
+    color: aqua;
+}
+.mybody a{
+    background-color: bisque;
+    color: aqua;
+    border-radius: 25px;
+    border: 1px solid aqua;
+}
+.mybody a:hover{
+    background-color:aqua ;
+    color: bisque;
+    border-radius: 25px;
+    border: 1px solid aqua ;
+
+}
+.mylogo a img {
+    height: 60px;
+}
+.service{
+    box-shadow: 0 4px 4px 2px gainsboro;
+}
+.service img {
+    width: 20%;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.service h4 a{
+    text-decoration: none;
+}

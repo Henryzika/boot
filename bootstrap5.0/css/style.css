@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.dog{
+	padding: 30px;
+}
+#d{
+	color: white;
+	width: 15%;
+	height: 45px;
+	border-radius: 25px;
+	border: 1px solid white;
+	background-color: transparent;
+}
+#d:hover{
+	color: black;
+	width: 15%;
+	height: 45px;
+	border-radius: 25px;
+	border: 1px solid white;
+	background-color: white;
+	margin-bottom : 8px;
+	transition: 0.1s;
+	transition-delay: 0.1s;
+	transition-property: all;
+	transition-duration: 0.1s;
+}

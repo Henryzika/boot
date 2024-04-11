@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>intro to css</title>
+<meta name="Keywords" content="indoor catering, indoor catering in enug, indoor catering in nigeria, restaurant services, fast food near trans-ekulu">
+<meta name="Description" content="Biggie restaurant is a refreshing point for relaxation, enjoyment and intercontinental dishes">
+<link type="text/css" rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data">
+    <label>First Name:</label>
+	<input readonly type="text" name="fname" id="name" placeholder="Enter first name" value="Josephine" required><br/><p/>
+	<label>Surname:</label>
+	<input disabled type="text" name="surname" id="surname" placeholder="Enter Surname" required><br/><p/>
+	<label>Email Address:</label>
+	<input type="email" name="email"><br/><p/>
+	<label>Profile photo:</label>
+	<input type="file" name="photo"><br/><p/>
+	<label>DOB:</label>
+	<input type="date" name="dates"><br/><p/>
+	<label>Gender:</label>
+	<input type="radio" name="gender" value="male">Male
+	<input type="radio" name="gender" value="female">Female
+	<br><p/>
+	<label>Hobbies:</label>
+	<input type="checkbox" name="sports" value="sports">Sports
+	<input type="checkbox" name="cooking" value="cooking">Cooking
+	<input type="checkbox" name="dancing" value="dancing">Dancing
+	<input type="checkbox" name="travelling" value="travelling">Travelling
+	<br><p/>
+	<label>States of Origin</label>
+	<input type="text" name="state" list="states">
+	<datalist id="states">
+	    <option>-Select-</option>
+		<option value="enugu">Enugu</option>
+		<option value="anambra">Anambra</option>
+		<option>Imo</option>
+		<option>Delta</option>
+		<option>Ebonyi</option>
+		<option>Rivers</option>
+	</datalist>
+	<br/><p/>
+	<label>Contact Address:</label>
+	<input type="text" name="contact" placeholder="enter address" id="" value="" hidden>
+	<br/><p/>
+	<label>message</label><br/>
+	<textarea name="message" placeholder="Enter message..." cols="50" rows="10" style="margin-left: 40px;"></textarea>
+	<br/><p/>
+	<button type="reset">Reset</button>
+	<button type="submit">Submit</button>
+</form>
+
+<!--list elements-->
+<ul class="mylist">
+	<li id="active"><a href="#">Mango</a></li>
+	<li><a href="#">Guava</a></li>
+	<li><a href="#">Tomatoes</a></li>
+	<li><a href="#">Orange</a></li>
+	<li><a href="#">Banana</a></li>
+	<li><a href="#">Apple</a></li>
+	<li><a href="#" style="color: red;">cashew</a></li>
+</ul>
+
+
+
+<div class="navbar">
+<div class="logo">
+	<img src="image/mountain.png">
+</div>
+<div class="nav">
+	<ul>
+		<li>Home</li>
+		<li>About Us</li>
+		<li>Services</li>
+		<li>Products</li>
+		<li>Portfolio</li>
+		<li>Blog</li>
+		<li>Contact Us</li>
+	</ul>
+</div>
+</div>
+
+
+<!--<div class="myanimate">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia ab tenetur illo soluta sequi aliquam natus hic tempora voluptatem. Sequi iste sint doloremque consequatur eligendi, quae deserunt iusto quos.
+</div>
+
+<div class="myrotate">
+	Coding at vsasf tech ICT academy is fun!
+</div>-->
+
+
+
+<!--table elements begins-->
+	<table width="50%" cellpadding="5px" bgcolor="black" style="margin-top: 30px;" >
+		<tr style="background-color: white;">
+			<td colspan="2">Cmputer science</td>
+			
+			<td>Environmental Studies</td>
+			<td>Business Administration</td>
+			<td>Pure and Applied Physics</td>
+			<td>Pure and Applied Chemistry</td>
+		</tr>
+		<tr style="background-color: white;">
+			<td>2023</td>
+			<td>2022</td>
+			<td>2021</td>
+			<td>2020</td>
+			<td>2019</td>
+			<td> 2018</td>
+		</tr>
+		<tr style="background-color: white;">
+			<td>A</td>
+			<td rowspan="3">B</td>
+			<td>C</td>
+			<td>D</td>
+			<td>E</td>
+			<td>F</td>
+		</tr>
+		<tr style="background-color: white;">
+			<td>Cat</td>
+			
+			<td>Elephant</td>
+			<td colspan="3">Goat</td>
+			
+		
+		</tr>
+		<tr style="background-color: white;">
+			<td>Bitterleaf soup</td>
+			
+			<td>Beans</td>
+			<td>Chease balls</td>
+			<td>Hot dog</td>
+			<td>Shawarma</td>
+		</tr>
+	</table><!--table element ends-->
+	
+	<!--form element begins-->
+	<form>
+	<table>
+		<tr>
+			<td>Surname:</td>
+			<td>
+				<input type="text" name="surname" placeholder="Enter surname">
+			</td>
+		</tr>
+		<tr>
+			<td>First name:</td>
+			<td>
+				<input type="text" name="fname" placeholder="Enter first name">
+			</td>
+		</tr>
+		<tr>
+			<td>Phone Number:</td>
+			<td>
+				<input type="number" name="phone" placeholder="Enter phone number">
+			</td>
+		</tr>
+		<tr>
+			<td>Address:</td>
+			<td>
+				<input type="text" name="address" placeholder="Enter address">
+			</td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td>
+				<select name="gender">
+					<option>select</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>D.O.B:</td>
+			<td>
+				<input type="date" name="dob">
+			</td>
+		</tr>
+		<tr>
+			<td>Hobbies:</td>
+			<td>
+				<input type="checkbox" name="cooking" value="cooking">Coooking
+				<input type="checkbox" name="dancing" value="dancing">Dancing
+				<input type="checkbox" name="football" value="football">Football
+				<input type="checkbox" name="reading" value="reading">Reading
+				<input type="checkbox" name="singing" value="singing">Singing
+			</td>
+		</tr>
+		<tr>
+			<td>Disabilities:</td>
+			<td>
+				<input type="radio" name="disability" value="yes">Yes
+				<input type="radio" name="disability" value="no">No
+			</td>
+		</tr>
+		<tr>
+			<td>Enter message</td>
+			<td>
+				<textarea name="message" placeholder="Enter mesaage..." cols="50" rows="10"></textarea>
+			</td>
+		</tr>
+	</table>
+	</form>
+	
+	
+</body>
+</html>

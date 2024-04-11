@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+}
+.mylist{
+	background-color: red;
+	height: 100px;
+	width: 60%;
+}
+
+.mylist li{
+	list-style: none;
+	display: inline;
+	background-color: none;
+	padding: 15px 25px;
+	line-height: 7.0em;
+	
+}
+.mylist li:hover{
+	list-style: none;
+	display: inline;
+	background-color: none;
+	padding: 15px 25px;
+	line-height: 7.0em;
+	border-bottom: 2px solid gainsboro;
+	box-sizing: border-box;
+	border-radius: 20px;
+	
+}
+.mylist li a{
+	text-decoration: none;
+	color: ghostwhite!important;
+}
+#active {
+	border-bottom: 2px solid white;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+#active:hover {
+	border-bottom: 2px solid gainsboro;;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.navbar{
+	width: 100%;
+	height: 100;
+	background-color: green;
+	float: left;
+}
+.logo{
+	width: 10%;
+	height: 90px;
+	background-color: none;
+	float: left;
+	margin-left: 60px;
+}
+.logo img{
+	width: 100%;
+	height: 90px;
+}
+.nav{
+	width: 70%;
+	height: 90px;
+	background-color: none;
+	margin-left: 150px;
+	float: left;
+}
+.nav ul{
+	background-color: none;
+	float: left;
+	width: 90%;
+	height: 70px;
+}
+.nav ul li{
+	display: inline;
+	list-style: none;
+	background-color: none;
+	padding: 15px 35px;
+	line-height: 4.5em;
+}
+.myanimate{
+	width: 20%;
+	height: 150px;
+	float: left;
+	background-color: red;
+	margin-top: 50px;
+	animation-name: move;
+	animation-duration: 10s;
+	animation-play-state: running;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes move{
+	0%{left: 0px;}
+	25%{left: 400px;}
+	50%{left: 700px;}
+	75%{left: 300px;}
+	100%{left: 0px;}
+}
+.myrotate{
+	width: 8%;
+	height: 100px;
+	float: left;
+	
+	color: white;
+	margin-top: 420px;
+	border-radius: 250px;
+	padding: 30px;
+	animation-name: myrotate;
+	animation-duration: 15s;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	position: relative;
+	animation-fill-mode: forwards;
+}
+@keyframes myrotate{
+	0%{left: 0px; transform: rotate(120deg); background-color: green;}
+	25%{left: 500px; transform: rotate(360deg);background-color: red;}
+	50%{left: 100px; transform: rotate(480deg);background-color: orange;}
+	75%{left: 500px; transform: rotate(600deg);background-color: green;}
+	100%{left: 0px; transform: rotate(720deg);background-color: brown;}
+}
+.myimage{
+	width: 10%;
+	height: 100px;
+	float: left;
+	background-color: green;
+	animation-name: myanimate;
+	animation-duration: 20s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	position: relative;
+	background-image: url(image/mountain.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+@keyframes myanimate{
+	0%{left: 0px; top: 0px;}
+	25%{left: 400px; top: 0px;}
+	50%{left: 400px; top: 400px;}
+	75%{left: 0px; top: 400px;}
+	100%{left: 0px; top: 0px;}
+}
+.mycont{
+	width: 100%;
+	height: 200px;
+	float: left;
+	background-color: whitesmoke;
+}
+.myco{
+	width: 31%;
+	height: 100px;
+	float: left;
+	background-color: blue;
+	color: white;
+	margin-left: 5px;
+	padding: 5px 10px;
+	margin-top: 20px;
+}
+@media screen and (max-width:480px){
+	.mycont{
+	width: 100%;
+	height: 200px;
+	float: left;
+	background-color: whitesmoke;
+}
+.myco{
+	width: 60%;
+	height: 100px;
+	float: left;
+	background-color: blue;
+	color: white;
+	margin-left: 5px;
+	padding: 5px 10px;
+	margin-top: 20px;
+}
+	#myco{
+		width: 100%;
+	}
+}
+@media screen and (max-width:320px){
+	.mycont{
+	width: 100%;
+	height: 200px;
+	float: left;
+	background-color: whitesmoke;
+}
+.myco{
+	width: 60%;
+	height: 100px;
+	float: left;
+	background-color: blue;
+	color: white;
+	margin-left: 5px;
+	padding: 5px 10px;
+	margin-top: 20px;
+}
+	#myco{
+		width: 100%;
+	}
+}
